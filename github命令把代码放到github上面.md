@@ -19,6 +19,10 @@
 	git commit -m 'first commit'   //first commit 只是作为描述，方便log查询，不可省略
 （7）、再push到远程仓库上
 	git push -u origin master   #-f是强制上传
+	服务端上传文件需要：
+	git add .
+	git commit -m "提交信息"
+
 	git push -k origin master   #是拉取
 
 查询git提交日志：git log
